@@ -13,7 +13,7 @@ const Layout = ({ title, children }) => {
         <span className="text-[40px]">{title}</span>
 
         {/*settings*/}
-        <button onClick={() => alert("Settings Clicked!")}>
+        <button>
           <img
             src="/settings.png"
             alt="Settings"
