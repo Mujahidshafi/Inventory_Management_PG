@@ -12,6 +12,9 @@ import ScreeningStorage from "./pages/screeningStorage";
 import EmployeeMenu from "./pages/employeeMenu";
 import FieldRunModify from "./pages/fieldRunModify";
 import RunningJob from "./pages/runningJob";
+import MillJob from "./pages/MillJob";
+import StorageDashboard from "./pages/StorageDashboard";
+import SearchHistory from "./pages/SearchHistory";
 
 
 function App() {
@@ -30,6 +33,9 @@ function App() {
       <Route path="/employeeMenu" element={<EmployeeMenu />} />
       <Route path="/fieldRunModify" element={<FieldRunModify/>} />
       <Route path="/runningJob" element={<RunningJob/>} />
+      <Route path="/mill-job" element={<MillJob />} />
+      <Route path="/storage-dashboard" element={<StorageDashboard />} />
+      <Route path="/search-history" element={<SearchHistory />} />
     </Routes>
   );
 }
