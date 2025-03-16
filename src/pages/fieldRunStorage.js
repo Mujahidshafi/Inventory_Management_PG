@@ -2,12 +2,12 @@ import React from "react";
 import "../App.css";
 import Layout from "../components/layout"; 
 
-function adminMenu() {
+function fieldRunStorage() {
   return (
-    <Layout title="Admin Menu">
+    <Layout title="Field Run Storage">
       <span>Content</span>
     </Layout>
   );
 }
 
-export default adminMenu;
+export default fieldRunStorage;

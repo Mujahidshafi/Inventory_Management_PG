@@ -2,12 +2,12 @@ import React from "react";
 import "../App.css";
 import Layout from "../components/layout"; 
 
-function adminMenu() {
+function BoilerPlate() {
   return (
-    <Layout title="Admin Menu">
+    <Layout title="Page Title">
       <span>Content</span>
     </Layout>
   );
 }
 
-export default adminMenu;
+export default BoilerPlate;
