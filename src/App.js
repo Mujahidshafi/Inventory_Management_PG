@@ -15,6 +15,9 @@ import RunningJob from "./pages/runningJob";
 import MillJob from "./pages/MillJob";
 import StorageDashboard from "./pages/StorageDashboard";
 import SearchHistory from "./pages/SearchHistory";
+import Login from "./pages/login";
+import AddNewItems from "./pages/addNewItems";
+import CleanStorageModify from "./pages/cleanSorageModify";
 
 
 function App() {
@@ -31,11 +34,14 @@ function App() {
       <Route path="/deleteItems" element={<DeleteItems />} />
       <Route path="/screeningStorage" element={<ScreeningStorage />} />
       <Route path="/employeeMenu" element={<EmployeeMenu />} />
-      <Route path="/fieldRunModify" element={<FieldRunModify/>} />
-      <Route path="/runningJob" element={<RunningJob/>} />
+      <Route path="/fieldRunModify" element={<FieldRunModify />} />
+      <Route path="/runningJob" element={<RunningJob />} />
       <Route path="/mill-job" element={<MillJob />} />
       <Route path="/storage-dashboard" element={<StorageDashboard />} />
       <Route path="/search-history" element={<SearchHistory />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/addNewItems" element={<AddNewItems />} />
+      <Route path="/cleanStorageModify" element={<CleanStorageModify />} />
     </Routes>
   );
 }
