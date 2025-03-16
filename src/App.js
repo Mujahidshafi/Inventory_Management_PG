@@ -10,6 +10,8 @@ import CleanStorage from "./pages/cleanStorage";
 import DeleteItems from "./pages/deleteItems";
 import ScreeningStorage from "./pages/screeningStorage";
 import EmployeeMenu from "./pages/employeeMenu";
+import FieldRunModify from "./pages/fieldRunModify";
+import RunningJob from "./pages/runningJob";
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
       <Route path="/deleteItems" element={<DeleteItems />} />
       <Route path="/screeningStorage" element={<ScreeningStorage />} />
       <Route path="/employeeMenu" element={<EmployeeMenu />} />
+      <Route path="/fieldRunModify" element={<FieldRunModify/>} />
+      <Route path="/runningJob" element={<RunningJob/>} />
     </Routes>
   );
 }
