@@ -8,6 +8,7 @@ import Transfer from "./pages/transfer";
 import InProcess from "./pages/inProcess";
 import CleanStorage from "./pages/cleanStorage";
 
+
 function App() {
   return (
     <Routes>
@@ -16,9 +17,9 @@ function App() {
       <Route path="/updateLocation" element={<UpdateLocation />} />
       <Route path="/fieldRunStorage" element={<FieldRunStorage />} />
       <Route path="/searchModify" element={<SearchModify />} />
-        <Route path="/cleanStorage" element={<CleanStorage />} />
-        <Route path="/transfer" element={<Transfer />} />
-        <Route path="/inProcess" element={<InProcess />} />
+      <Route path="/cleanStorage" element={<CleanStorage />} />
+      <Route path="/transfer" element={<Transfer />} />
+      <Route path="/inProcess" element={<InProcess />} />
     </Routes>
   );
 }
