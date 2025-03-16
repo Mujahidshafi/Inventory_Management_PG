@@ -7,6 +7,9 @@ import SearchModify from "./pages/searchModify";
 import Transfer from "./pages/transfer";
 import InProcess from "./pages/inProcess";
 import CleanStorage from "./pages/cleanStorage";
+import DeleteItems from "./pages/deleteItems";
+import ScreeningStorage from "./pages/screeningStorage";
+import EmployeeMenu from "./pages/employeeMenu";
 
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
       <Route path="/cleanStorage" element={<CleanStorage />} />
       <Route path="/transfer" element={<Transfer />} />
       <Route path="/inProcess" element={<InProcess />} />
+      <Route path="/deleteItems" element={<DeleteItems />} />
+      <Route path="/screeningStorage" element={<ScreeningStorage />} />
+      <Route path="/employeeMenu" element={<EmployeeMenu />} />
     </Routes>
   );
 }
