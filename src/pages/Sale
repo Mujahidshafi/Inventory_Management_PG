@@ -10,4 +10,4 @@ function Sale() {
   );
 }
 
-export default Sale; // Make sure the export name matches the function name
+export default Sale; 
