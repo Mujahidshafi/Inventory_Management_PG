@@ -19,6 +19,7 @@ import Login from "./pages/login";
 import AddNewItems from "./pages/addNewItems";
 import CleanStorageModify from "./pages/cleanSorageModify";
 import Search from "./pages/Search";
+import Sale from "./pages/Sale";
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
       <Route path="/addNewItems" element={<AddNewItems />} />
       <Route path="/cleanStorageModify" element={<CleanStorageModify />} />
       <Route path="/search" element={<Search />} />
+      <Route path="/sale" element={<Sale />} />
+
     </Routes>
   );
 }
