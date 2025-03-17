@@ -17,7 +17,7 @@ import StorageDashboard from "./pages/StorageDashboard";
 import SearchHistory from "./pages/SearchHistory";
 import Login from "./pages/login";
 import AddNewItems from "./pages/addNewItems";
-import CleanStorageModify from "./pages/cleanSorageModify";
+import CleanStorageModify from "./pages/cleanStorage";
 import Search from "./pages/Search";
 import Sale from "./pages/Sale";
 

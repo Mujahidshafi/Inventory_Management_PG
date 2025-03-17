@@ -1,5 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout"; 
+import "../App.css";
+import Layout from "../components/layout"; 
 function Sale() {  
   return (
     <Layout title="Sale"> 
