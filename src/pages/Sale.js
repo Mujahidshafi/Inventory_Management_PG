@@ -1,6 +1,5 @@
 import React from "react";
-import Layout from "../components/layout"; // Adjust path if needed
-
+import Layout from "../components/Layout"; 
 function Sale() {  
   return (
     <Layout title="Sale"> 
@@ -10,4 +9,4 @@ function Sale() {
   );
 }
 
-export default Sale; 
+export default Sale;
