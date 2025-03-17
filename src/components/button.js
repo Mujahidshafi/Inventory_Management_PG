@@ -1,7 +1,7 @@
 import React from "react";
 
 function Button({label, color = "green", className = ''}){
-    const baseStyles = "flex items-center justify-center px-6 py-2 rounded-lg shadow-md";
+    const baseStyles = "flex items-center justify-center px-6 py-2 rounded-xl shadow-md";
     const colorStyles = 
     {
         green: "bg-[#3D5147] text-white hover:bg-[#2C3A35]",
