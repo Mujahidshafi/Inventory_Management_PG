@@ -1,13 +1,13 @@
 import React from "react";
 import Layout from "../components/layout"; // Adjust if needed
 
-function SearchPage() {
+function Search() {
   return (
-    <Layout title="Search Page">
-      <h1>Search Page</h1>
+    <Layout title="Search">
+      <h1>Search</h1>
       <p>This is the search page.</p>
     </Layout>
   );
 }
 
-export default SearchPage;
+export default Search;
