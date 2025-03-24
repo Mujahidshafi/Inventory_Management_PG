@@ -6,8 +6,8 @@ import Button from "../components/button";
 function employeeMenu() {
     return (
       <Layout title="Employee Menu">
-        <div class = "flex flex-wrap justify-center items-center w-[50%] h-[40vh] relative"> 
-            <div class = "grid gap-4 lg: grid-cols-2 lg: grid-rows-2 lg: gap-10">
+        <div class = "flex flex-wrap justify-center items-center w-[100%] h-[100%]"> 
+            <div class = "grid gap-4 lg: grid-cols-2 lg: grid-rows-2 lg: gap-20">
             <Button
             label = "New Field Run"
             color = "red"
