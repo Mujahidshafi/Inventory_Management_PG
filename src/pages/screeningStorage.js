@@ -58,8 +58,8 @@ function screeningStorage() {
               </button>
             </div>
 
-            /* this is the line where the first entry of screening storage ends.
-               the rest is duplicated code of the first entry to demonstrate an example. */
+            {/* this is the line where the first entry of screening storage ends.
+               the rest is duplicated code of the first entry to demonstrate an example. */}
 
             <div class = "bg-gray-100 w-[90%] h-[20%] rounded-[30px] shadow-lg items-start items-center justify-around flex gap-2 p-4">
               <div class = "flex flex-col items-center gap-2">
