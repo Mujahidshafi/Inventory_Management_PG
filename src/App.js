@@ -4,7 +4,7 @@ import AdminMenu from "./pages/adminMenu";
 import UpdateLocation from "./pages/updateLocation";
 import FieldRunStorage from "./pages/fieldRunStorage";
 import SearchModify from "./pages/searchModify";
-import Transfer from "./pages/transfer";
+import Transfer from "./pages/transfer"; 
 import InProcess from "./pages/inProcess";
 import CleanStorage from "./pages/cleanStorage";
 import DeleteItems from "./pages/deleteItems";
@@ -39,7 +39,7 @@ function App() {
       <Route path="/fieldRunModify" element={<FieldRunModify />} />
       <Route path="/runningJob" element={<RunningJob />} />
       <Route path="/mill-job" element={<MillJob />} />
-      <Route path="/storage-dashboard" element={<StorageDashboard />} />
+      <Route path="/storagedashboard" element={<StorageDashboard />} />
       <Route path="/search-history" element={<SearchHistory />} />
       <Route path="/login" element={<Login />} />
       <Route path="/addNewItems" element={<AddNewItems />} />
