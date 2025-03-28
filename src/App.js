@@ -20,6 +20,7 @@ import AddNewItems from "./pages/addNewItems";
 import CleanStorageModify from "./pages/cleanStorage";
 import Search from "./pages/Search";
 import Sale from "./pages/Sale";
+import ForgotPassword from "./pages/forgotPassword";
 
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
       <Route path="/cleanStorageModify" element={<CleanStorageModify />} />
       <Route path="/search" element={<Search />} />
       <Route path="/sale" element={<Sale />} />
-
+      <Route path="/forgotPassword" element={<ForgotPassword />} />
     </Routes>
   );
 }
