@@ -3,7 +3,7 @@ import "../App.css";
 import Layout from "../components/layout";
 import { Link } from "react-router-dom";
 
-function StorageDashboard() {
+function storageDashboard() {
   return (
       <Layout title="Storage Dashboard">
         <div className= "grid grid-cols-3 gap-20">
@@ -18,4 +18,4 @@ function StorageDashboard() {
   );
 }
 
-export default StorageDashboard;
+export default storageDashboard;

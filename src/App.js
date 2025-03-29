@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import BoilerPlate from "./pages/BoilerPlate";
+//import BoilerPlate from "./pages/BoilerPlate";
 import AdminMenu from "./pages/adminMenu";
 import UpdateLocation from "./pages/updateLocation";
 import FieldRunStorage from "./pages/fieldRunStorage";
@@ -12,21 +12,23 @@ import ScreeningStorage from "./pages/screeningStorage";
 import EmployeeMenu from "./pages/employeeMenu";
 import FieldRunModify from "./pages/fieldRunModify";
 import RunningJob from "./pages/runningJob";
-import MillJob from "./pages/MillJob";
-import StorageDashboard from "./pages/StorageDashboard";
-import SearchHistory from "./pages/SearchHistory";
+import Jobs from "./pages/jobs";
+import StorageDashboard from "./pages/storageDashboard";
+import SearchHistory from "./pages/searchHistory";
 import Login from "./pages/login";
 import AddNewItems from "./pages/addNewItems";
 import CleanStorageModify from "./pages/cleanStorage";
-import Search from "./pages/Search";
-import Sale from "./pages/Sale";
+import Search from "./pages/search";
+import Sale from "./pages/sale";
 import ForgotPassword from "./pages/forgotPassword";
+import NewFieldRun from "./pages/newFieldRun"
+import CreateJob from "./pages/createJob"
 
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<BoilerPlate />} />
+      <Route path="/" element={<Login />} />
       <Route path="/adminMenu" element={<AdminMenu />} />
       <Route path="/updateLocation" element={<UpdateLocation />} />
       <Route path="/fieldRunStorage" element={<FieldRunStorage />} />
@@ -39,8 +41,8 @@ function App() {
       <Route path="/employeeMenu" element={<EmployeeMenu />} />
       <Route path="/fieldRunModify" element={<FieldRunModify />} />
       <Route path="/runningJob" element={<RunningJob />} />
-      <Route path="/mill-job" element={<MillJob />} />
-      <Route path="/storagedashboard" element={<StorageDashboard />} />
+      <Route path="/jobs" element={<Jobs />} />
+      <Route path="/storageDashboard" element={<StorageDashboard />} />
       <Route path="/search-history" element={<SearchHistory />} />
       <Route path="/login" element={<Login />} />
       <Route path="/addNewItems" element={<AddNewItems />} />
@@ -48,6 +50,8 @@ function App() {
       <Route path="/search" element={<Search />} />
       <Route path="/sale" element={<Sale />} />
       <Route path="/forgotPassword" element={<ForgotPassword />} />
+      <Route path="/newFieldRun" element={<NewFieldRun />} />
+      <Route path="/createJob" element={<CreateJob />} />
     </Routes>
   );
 }
