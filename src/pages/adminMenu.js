@@ -3,7 +3,7 @@ import React from "react";
 import "../App.css";
 import Layout from "../components/layout";
 
-const buttonStyle="bg-[#5D1214] text-white px-6 py-6 rounded-[15px] text-lg font-semibold text-center hover:bg-[#390B0EFF] transition-all duration-300"
+const buttonStyle="bg-[#5D1214] text-white px-6 py-6 rounded-[15px] text-lg font-semibold text-center hover:bg-[#3D5147] transition-all duration-300"
 
 function adminMenu() {
   return (

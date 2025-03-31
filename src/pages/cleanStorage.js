@@ -29,13 +29,15 @@ function cleanStorage() {
     ];
     return (
         <Layout title="Clean Storage">
-            <span>
-                <div className="min-h-screen flex flex-col items-center py-8 border-black" >
-                    {data.map((locationData, idx) => (
-                    <CleanStorageCard key={idx} {...locationData} />
-                    ))}
-                </div>
-            </span>
+            <div class = "w-[100%] h-[100%] flex flex-col items-center gap-4 overflow-y-scroll">
+                <span>
+                    <div className="min-h-screen flex flex-col items-center py-8 border-black" >
+                        {data.map((locationData, idx) => (
+                        <CleanStorageCard key={idx} {...locationData} />
+                        ))}
+                    </div>
+                </span>
+            </div>
         </Layout>
     );
 }
