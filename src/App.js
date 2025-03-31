@@ -13,13 +13,13 @@ import EmployeeMenu from "./pages/employeeMenu";
 import FieldRunModify from "./pages/fieldRunModify";
 import RunningJob from "./pages/runningJob";
 import Jobs from "./pages/jobs";
-import StorageDashboard from "./pages/storageDashboard";
-import SearchHistory from "./pages/searchHistory";
+import StorageDashboard from "./pages/StorageDashboard";
+import SearchHistory from "./pages/SearchHistory";
 import Login from "./pages/login";
 import AddNewItems from "./pages/addNewItems";
 import CleanStorageModify from "./pages/cleanStorage";
-import Search from "./pages/search";
-import Sale from "./pages/sale";
+import Search from "./pages/Search";
+import Sale from "./pages/Sale";
 import ForgotPassword from "./pages/forgotPassword";
 import NewFieldRun from "./pages/newFieldRun"
 import CreateJob from "./pages/createJob"
